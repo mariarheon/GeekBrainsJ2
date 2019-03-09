@@ -153,7 +153,7 @@ public class Client extends JFrame {
             @Override
             public void run() {
                 while (true) {
-                    if ((System.currentTimeMillis() - time) >= 5000 && login == false) {
+                    if ((System.currentTimeMillis() - time) >= 120000 && login == false) {
                         clientClose();
                         setVisible(false);
                         clientClose();
